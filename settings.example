@@ -1,0 +1,10 @@
+# Non-secret settings. setup.sh creates the ignored .settings automatically.
+SECRET_BACKEND=envchain
+ENVCHAIN_NAMESPACE=pdf-permissions
+TARGET_PREFIX=""
+PERMISSION_POLICY=print_copy_annotate
+# QPDF_BIN=/opt/homebrew/bin/qpdf
+# ENVCHAIN_BIN=/opt/homebrew/bin/envchain
+STABILITY_CHECKS=3
+STABILITY_INTERVAL_SECONDS=1
+STABILITY_TIMEOUT_SECONDS=120

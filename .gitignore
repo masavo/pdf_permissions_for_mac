@@ -1,0 +1,14 @@
+.env*
+!.env.example
+.settings*
+*.log
+*.scpt
+*.pdf
+.DS_Store
+__pycache__/
+# Machine-specific audit evidence and private fixture references.
+/artifacts/
+/VALIDATION.md
+.folder-action-test-*/
+secure_pdf.log
+*.tmp
