@@ -1,4 +1,4 @@
-# for_mac
+# pdf_permissions_for_mac
 
 macOS Folder Actionsで、フォルダに新しく追加されたPDFへパスワードと権限制限を設定します。元PDFを同名で置換するため、最初はコピーしたPDFで試してください。
 
@@ -9,8 +9,8 @@ macOS Folder Actionsで、フォルダに新しく追加されたPDFへパスワ
 macOS、Homebrew、qpdf 11.7以降が必要です。envchainを使う場合はenvchainも必要です。
 
 ```sh
-git clone https://github.com/masavo/for_mac.git
-cd for_mac
+git clone https://github.com/masavo/pdf_permissions_for_mac.git
+cd pdf_permissions_for_mac
 mkdir -p "$HOME/Documents/PDF待ち"
 ./setup.sh --folder "$HOME/Documents/PDF待ち" --install-deps
 ```
